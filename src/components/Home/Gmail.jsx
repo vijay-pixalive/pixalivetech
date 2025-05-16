@@ -23,7 +23,7 @@ const Gmail = () => {
               <Tooltip.Content
                 side="bottom"
                 sideOffset={8}
-                className="bg-white text-black px-3 py-1 rounded text-sm shadow-md z-40"
+                className="bg-white text-black px-3 py-2 rounded text-sm shadow-md z-40"
               >
                 Click me!
                 <Tooltip.Arrow className="fill-black" />
