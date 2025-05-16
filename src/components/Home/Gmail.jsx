@@ -35,5 +35,4 @@ const Gmail = () => {
     </Tooltip.Provider>
   );
 };
-
 export default Gmail;
