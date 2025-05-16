@@ -1,5 +1,3 @@
-import React from "react";
-
 
 const Footer = () => {
   return (
@@ -42,6 +40,8 @@ const Footer = () => {
                 <a href="/" className="hover:underline cursor-pointer">Home</a>
                 <a href="/service" className="hover:underline cursor-pointer">Services</a>
                 <a href="/hireus" className="hover:underline cursor-pointer">Hire Us</a>
+                <a href="/features" className="hover:underline cursor-pointer">Features</a>
+                <a href="/pricing" className="hover:underline cursor-pointer">Pricing</a>
                 <a href="/contact" className="hover:underline cursor-pointer">Contact</a>
               </div>
 
@@ -90,7 +90,7 @@ const Footer = () => {
         </div>
 
         {/* Branding - Pixalive */}
-        <div className="mt-16 flex items-center justify-center relative">
+        <div className="mt-12 flex items-center justify-center relative">
           <div className="text-[3rem] sm:text-[6rem] md:text-[8rem] lg:text-[10rem] bg-gradient-to-b from-white to-black bg-clip-text text-transparent text-center font-bold leading-none w-full">
             Pixalive
           </div>
